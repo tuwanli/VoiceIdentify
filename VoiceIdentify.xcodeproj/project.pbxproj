@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D3F5B541C55F26E00D77916 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F5B531C55F26E00D77916 /* ISRDataHelper.m */; };
 		0DF1596A1C51F41600F9E23E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF159691C51F41600F9E23E /* main.m */; };
 		0DF1596D1C51F41600F9E23E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1596C1C51F41600F9E23E /* AppDelegate.m */; };
 		0DF159701C51F41600F9E23E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1596F1C51F41600F9E23E /* ViewController.m */; };
@@ -15,6 +16,18 @@
 		0DF159781C51F41600F9E23E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF159761C51F41600F9E23E /* LaunchScreen.storyboard */; };
 		0DF159831C51F41700F9E23E /* VoiceIdentifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF159821C51F41700F9E23E /* VoiceIdentifyTests.m */; };
 		0DF1598E1C51F41700F9E23E /* VoiceIdentifyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1598D1C51F41700F9E23E /* VoiceIdentifyUITests.m */; };
+		0DF1599C1C51F4CA00F9E23E /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF1599B1C51F4CA00F9E23E /* iflyMSC.framework */; };
+		0DF1599E1C51F50100F9E23E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF1599D1C51F50100F9E23E /* CoreGraphics.framework */; };
+		0DF159A01C51F51000F9E23E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF1599F1C51F51000F9E23E /* UIKit.framework */; };
+		0DF159A21C51F51700F9E23E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF159A11C51F51700F9E23E /* Foundation.framework */; };
+		0DF159A41C51F53900F9E23E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF159A31C51F53900F9E23E /* libz.tbd */; };
+		0DF159A61C51F54500F9E23E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF159A51C51F54500F9E23E /* CoreLocation.framework */; };
+		0DF159A81C51F54E00F9E23E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF159A71C51F54E00F9E23E /* CoreTelephony.framework */; };
+		0DF159AA1C51F55C00F9E23E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF159A91C51F55C00F9E23E /* AVFoundation.framework */; };
+		0DF159AC1C51F56800F9E23E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF159AB1C51F56800F9E23E /* AddressBook.framework */; };
+		0DF159B01C51F59C00F9E23E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF159AF1C51F59C00F9E23E /* AudioToolbox.framework */; };
+		0DF159B21C51F5B700F9E23E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF159B11C51F5B700F9E23E /* SystemConfiguration.framework */; };
+		0DF159B41C51F5C400F9E23E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF159B31C51F5C400F9E23E /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D3F5B521C55F26E00D77916 /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
+		0D3F5B531C55F26E00D77916 /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
 		0DF159651C51F41600F9E23E /* VoiceIdentify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceIdentify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF159691C51F41600F9E23E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DF1596B1C51F41600F9E23E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,19 @@
 		0DF159891C51F41700F9E23E /* VoiceIdentifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceIdentifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF1598D1C51F41700F9E23E /* VoiceIdentifyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceIdentifyUITests.m; sourceTree = "<group>"; };
 		0DF1598F1C51F41700F9E23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DF1599B1C51F4CA00F9E23E /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		0DF1599D1C51F50100F9E23E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0DF1599F1C51F51000F9E23E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0DF159A11C51F51700F9E23E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0DF159A31C51F53900F9E23E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0DF159A51C51F54500F9E23E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0DF159A71C51F54E00F9E23E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0DF159A91C51F55C00F9E23E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0DF159AB1C51F56800F9E23E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		0DF159AD1C51F59000F9E23E /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		0DF159AF1C51F59C00F9E23E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0DF159B11C51F5B700F9E23E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0DF159B31C51F5C400F9E23E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DF159B41C51F5C400F9E23E /* QuartzCore.framework in Frameworks */,
+				0DF159B21C51F5B700F9E23E /* SystemConfiguration.framework in Frameworks */,
+				0DF159B01C51F59C00F9E23E /* AudioToolbox.framework in Frameworks */,
+				0DF159AC1C51F56800F9E23E /* AddressBook.framework in Frameworks */,
+				0DF159AA1C51F55C00F9E23E /* AVFoundation.framework in Frameworks */,
+				0DF159A81C51F54E00F9E23E /* CoreTelephony.framework in Frameworks */,
+				0DF159A61C51F54500F9E23E /* CoreLocation.framework in Frameworks */,
+				0DF159A41C51F53900F9E23E /* libz.tbd in Frameworks */,
+				0DF159A21C51F51700F9E23E /* Foundation.framework in Frameworks */,
+				0DF159A01C51F51000F9E23E /* UIKit.framework in Frameworks */,
+				0DF1599E1C51F50100F9E23E /* CoreGraphics.framework in Frameworks */,
+				0DF1599C1C51F4CA00F9E23E /* iflyMSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +121,18 @@
 		0DF1595C1C51F41600F9E23E = {
 			isa = PBXGroup;
 			children = (
+				0DF159B31C51F5C400F9E23E /* QuartzCore.framework */,
+				0DF159B11C51F5B700F9E23E /* SystemConfiguration.framework */,
+				0DF159AF1C51F59C00F9E23E /* AudioToolbox.framework */,
+				0DF159AD1C51F59000F9E23E /* AudioUnit.framework */,
+				0DF159AB1C51F56800F9E23E /* AddressBook.framework */,
+				0DF159A91C51F55C00F9E23E /* AVFoundation.framework */,
+				0DF159A71C51F54E00F9E23E /* CoreTelephony.framework */,
+				0DF159A51C51F54500F9E23E /* CoreLocation.framework */,
+				0DF159A31C51F53900F9E23E /* libz.tbd */,
+				0DF159A11C51F51700F9E23E /* Foundation.framework */,
+				0DF1599F1C51F51000F9E23E /* UIKit.framework */,
+				0DF1599D1C51F50100F9E23E /* CoreGraphics.framework */,
 				0DF159671C51F41600F9E23E /* VoiceIdentify */,
 				0DF159811C51F41700F9E23E /* VoiceIdentifyTests */,
 				0DF1598C1C51F41700F9E23E /* VoiceIdentifyUITests */,
@@ -101,10 +153,13 @@
 		0DF159671C51F41600F9E23E /* VoiceIdentify */ = {
 			isa = PBXGroup;
 			children = (
+				0DF1599B1C51F4CA00F9E23E /* iflyMSC.framework */,
 				0DF1596B1C51F41600F9E23E /* AppDelegate.h */,
 				0DF1596C1C51F41600F9E23E /* AppDelegate.m */,
 				0DF1596E1C51F41600F9E23E /* ViewController.h */,
 				0DF1596F1C51F41600F9E23E /* ViewController.m */,
+				0D3F5B521C55F26E00D77916 /* ISRDataHelper.h */,
+				0D3F5B531C55F26E00D77916 /* ISRDataHelper.m */,
 				0DF159711C51F41600F9E23E /* Main.storyboard */,
 				0DF159741C51F41600F9E23E /* Assets.xcassets */,
 				0DF159761C51F41600F9E23E /* LaunchScreen.storyboard */,
@@ -272,6 +327,7 @@
 			files = (
 				0DF159701C51F41600F9E23E /* ViewController.m in Sources */,
 				0DF1596D1C51F41600F9E23E /* AppDelegate.m in Sources */,
+				0D3F5B541C55F26E00D77916 /* ISRDataHelper.m in Sources */,
 				0DF1596A1C51F41600F9E23E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +422,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "fd0149f4-fd68-4e20-adaa-873fa3ee2d15";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -402,6 +459,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "fd0149f4-fd68-4e20-adaa-873fa3ee2d15";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -411,10 +469,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VoiceIdentify",
+				);
 				INFOPLIST_FILE = VoiceIdentify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.VoiceIdentify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domainname.AGZYY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fd0149f4-fd68-4e20-adaa-873fa3ee2d15";
 			};
 			name = Debug;
 		};
@@ -422,10 +487,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VoiceIdentify",
+				);
 				INFOPLIST_FILE = VoiceIdentify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.VoiceIdentify;
+				PRODUCT_BUNDLE_IDENTIFIER = com.domainname.AGZYY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fd0149f4-fd68-4e20-adaa-873fa3ee2d15";
 			};
 			name = Release;
 		};
@@ -496,6 +568,7 @@
 				0DF159941C51F41700F9E23E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DF159951C51F41700F9E23E /* Build configuration list for PBXNativeTarget "VoiceIdentifyTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +577,7 @@
 				0DF159971C51F41700F9E23E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DF159981C51F41700F9E23E /* Build configuration list for PBXNativeTarget "VoiceIdentifyUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +586,7 @@
 				0DF1599A1C51F41700F9E23E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
